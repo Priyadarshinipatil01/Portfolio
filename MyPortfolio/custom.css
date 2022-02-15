@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+}
+a{ 
+    text-decoration: none;
+}
+.d-flex{
+display: flex;
+}
+.w-50{
+    width: 50%;
+}
+.text-center{
+    text-align: center;
+}
+header h1{
+    color:whitesmoke;
+}
+header{
+    align-items:center;
+    justify-content: space-between;
+    background-color: darksalmon;
+}
+.log img{
+    max-width: 6rem;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    /*max-height: 2.5rem;*/
+    /*margin-top:0.1rem;*/
+}
+ul.nav li{
+    padding-right: 1.5rem;
+}
+.nav a {
+    color: whitesmoke;
+    font-size: 1.125rem;
+}
+.nav a:hover{
+    color: darkslategray;
+}
+.jumbotron img {
+    width: 100%;
+    /* max-height:33rem;*/
+    max-height: 23rem;
+    margin-bottom: -4px;
+}
+.about-container {
+    padding: 1rem 1rem 3rem;
+    background: #d3d3dda0;
+}
+.about-container h2 {
+color: darkslategray;
+}
+.about-content {
+    align-items:center;
+    /*display: flex;*/
+}
+.about-content img {
+    max-width: 80%;
+}
+.about-content p {
+    line-height: 1.5;
+    text-align: left;
+}
+.projects-container {
+    padding: 1rem 1rem 3rem;
+    background: #c5c5e0;
+}
+.projects-content {
+    padding-left: 2rem;
+}
+.projects-container h2 {
+    color:darkred;
+}
+.projects-content ul {
+    list-style-type:square;
+
+}
+.projects-content a {
+    line-height: 1.75;
+    font-size: 1.25rem;
+    color: darkslategray;
+}
+footer{
+    padding: 2rem;
+    background: lemonchiffon;
+}
+footer ul {
+    justify-content: center;
+}
+footer a {
+    color: dimgray;
+    padding-right: 1rem;
+}
